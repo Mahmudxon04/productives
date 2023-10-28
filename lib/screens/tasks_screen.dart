@@ -57,7 +57,7 @@ class _TaskScreenState extends State<TaskScreen> {
             const SizedBox(
               height: 50,
             ),
-            Text(text,style: const TextStyle(color: white),),
+            Text(text,style: const TextStyle(color: white,fontSize:20),),
           ],
         ),
       ),
@@ -84,7 +84,7 @@ class _TaskScreenState extends State<TaskScreen> {
                         height: 10,
                         width: 10,
                         decoration: const BoxDecoration(
-                          color: Colors.red,
+                          color: Colors.blue,
                           shape: BoxShape.circle,
                         ),
                         child: const Text(
@@ -98,7 +98,6 @@ class _TaskScreenState extends State<TaskScreen> {
               ],
             ),
           ),
-
         ],
         backgroundColor: dark,
         automaticallyImplyLeading: false,
